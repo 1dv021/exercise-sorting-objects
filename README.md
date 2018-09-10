@@ -1,9 +1,12 @@
 # Subjektiv sortering av objekt
 
 - A-nivå
-- [GitBook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del1/subjektiv-sortering-av-objekt/)
+- [GitBook](https://coursepress.gitbook.io/1dv021/ovningsuppgifter/del-1/a-niva/subjektiv-sortering-av-objekt)
+- [Lösningsförslag](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/sorting-objects)
 
 >__VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+## Uppgift
 
 Hämta hem övningsuppgiftens repo och lägg till en .gitignore-fil. Öppna filen `team.js` och komplettera funktionen `sortByPoints`, som ska returnera en sorterad kopia av arrayen som skickas som argument till funktionen. Arrayen, innehållande objekt med information om fotbollslag, ska sorterad i fallande ordning med avseende på poäng. Funktionen ska vara en så kallad "pure function", d.v.s. vara helt utan sidoeffekter.
 
@@ -41,7 +44,3 @@ Funktioner, metoder, etc. som _kan_ komma till användning beroende hur du välj
 - [Array.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 - [throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 - [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
-
-## Lösningsförslag
-
-- [https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/sorting-objects](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/sorting-objects)
