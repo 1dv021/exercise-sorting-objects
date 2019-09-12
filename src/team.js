@@ -8,7 +8,7 @@
 
 'use strict'
 
-  /**
+/**
    *  Sorts the team objects of an array in place and returns the array. The team
    *  objects is sorted by descending points.
    *
@@ -19,4 +19,4 @@ function sortByPoints (teams) {
   // TODO: Write your code here!
 }
 
-exports.sortByPoints = sortByPoints
+module.exports.sortByPoints = sortByPoints
