@@ -11,7 +11,7 @@ const repository = require('./src/repository')
 const team = require('./src/team')
 
 try {
-  let teams = repository.loadTeams()
+  const teams = repository.loadTeams()
 
   console.log('Unordered teams\n---------------')
   console.log(teams)

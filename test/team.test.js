@@ -10,15 +10,15 @@
 
 const repository = require('../src/repository')
 const team = require('../src/team')
-const expect = require('chai').expect
+const { expect } = require('chai')
 
 describe('team.sortByPoints', () => {
   const ORDERED_TEAMS = [
-    { 'name': 'Tottenham Hotspur FC', 'nickname': 'Spurs', 'points': 86 },
-    { 'name': 'Liverpool FC', 'nickname': 'The Reds', 'points': 76 },
-    { 'name': 'Arsenal', 'nickname': 'The Gunners', 'points': 75 },
-    { 'name': 'Manchester United', 'nickname': 'The Red devils', 'points': 69 },
-    { 'name': 'Everton FC', 'nickname': 'The Toffees', 'points': 61 }
+    { name: 'Tottenham Hotspur FC', nickname: 'Spurs', points: 86 },
+    { name: 'Liverpool FC', nickname: 'The Reds', points: 76 },
+    { name: 'Arsenal', nickname: 'The Gunners', points: 75 },
+    { name: 'Manchester United', nickname: 'The Red devils', points: 69 },
+    { name: 'Everton FC', nickname: 'The Toffees', points: 61 }
   ]
 
   let teams

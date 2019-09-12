@@ -21,7 +21,7 @@
       "email": "mats.loock@lnu.se"
     }
   ],
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/1dv021/exercise-sorting-obejcts.git"
@@ -31,10 +31,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.0",
-    "snazzy": "^8.0.0",
-    "standard": "^14.1.0"
+    "chai": "*",
+    "mocha": "*",
+    "snazzy": "*",
+    "standard": "*"
   },
   "directories": {
     "test": "test"
@@ -47,15 +47,13 @@
     "test": "mocha --recursive ./test"
   },
   "standard": {
-    "globals": [
-      "describe",
-      "context",
-      "before",
-      "beforeEach",
-      "after",
-      "afterEach",
-      "it",
-      "expect"
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "ignore": [
+      "**/test2/"
     ]
   }
 }
