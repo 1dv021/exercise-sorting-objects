@@ -53,7 +53,7 @@
       "es6": true
     },
     "ignore": [
-      "**/test2/"
+      "**/test/"
     ]
   }
 }
